@@ -1,6 +1,7 @@
 project "cppzmq"
 	kind "StaticLib"
-	language "C++17"
+	language "C++"
+	cppdialect "C++17"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
